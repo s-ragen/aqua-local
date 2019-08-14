@@ -12,8 +12,8 @@ import glob
 
 '''Copy the original CORE forcing files from source directory, CORE_cnyf, to source directory, CORE_new'''
 
-source_dir = '/Users/sragen/PycharmProjects/AQUA/CORE_cnyf'
-dest_dir = '/Users/sragen/PycharmProjects/AQUA/CORE_new'
+source_dir = '/Users/sragen/PycharmProjects/AQUA/DATA/CORE_cnyf'
+dest_dir = '/Users/sragen/PycharmProjects/AQUA/DATA/CORE_new'
 for filename in glob.glob(os.path.join(source_dir, '*.*')):
     shutil.copy(filename, dest_dir)
 
