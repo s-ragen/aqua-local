@@ -10,6 +10,8 @@ riverfilenew='river_destination_field_new'
 
 f=open(riverfile,'r')
 
+
+
 lines=f.readlines()[2:]
 nblocks=int(len(lines)/5)
 blocks=[]
